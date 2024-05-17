@@ -25,7 +25,7 @@ app.post('/upload', upload.single('audio'), async (req, res) => {
 
         const config = {
             encoding: 'LINEAR16',
-            sampleRateHertz: 16000,
+            // sampleRateHertz: 16000,
             languageCode: 'en-US',
         };
 
